@@ -8,6 +8,10 @@ import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
 import L_SmartBrain from "../../assets/img/projects/brain.webp";
 import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
 import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
+import L_HRProfile from "../../assets/img/projects/hrprofile.webp";
+import L_CoffeeForCoding from "../../assets/img/projects/coffeeForCoding.webp";
+import L_Sakoban from "../../assets/img/projects/sakoban.webp";
+import L_LinkedIn_clone from "../../assets/img/projects/LinkedIn clone.webp";
 import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -38,13 +42,13 @@ const TimeLine = () => {
       <Timeline>
         <Events>
 
-        {/* Project: Daily Meal food ordering app */}
-        <ImageEvent
-            date="19/07/2020"
+      {/* Project: LinkedIn Clone Webapp */}
+      <ImageEvent
+            date="10/02/2022"
             className="text-center"
-            text="Daily Meal food ordering app"
-            src={L_GetGitHubInfo}
-            alt="Daily Meal food ordering app"
+            text="LinkedIn Clone webapp"
+            src={L_LinkedIn_clone}
+            alt="LinkedIn Clone webapp"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -60,13 +64,14 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> <br></br>Delimeal is as template app for restaurant. <br></br>Now it support some feature as:
-
-                        <br></br>1) Display meals as category.
-                        <br></br>2) Search with full filter by item attribute
-                        <br></br>3) Display meals in Map mode.
-                        <br></br>4) Save meal if you like it.
-                        <br></br>5) Login with facebook to share for your friends
+                        <strong>Description:</strong> <br></br>Developed LinkedIn clone using React JS, Redux, Firebase & Styled-Components <br></br>Now it support some feature as:
+                        <br></br>1) Login using Google (Firebase Authentication)
+                        <br></br>2) Create a new post
+                        <br></br>3) Share photos and videos (React player for videos)
+                        <br></br>4) Like posts
+                        <br></br>5) Realtime update likes and posts
+                        <br></br>6) Auto authenticate user on refresh
+                        <br></br>7) Sign Out
                         <hr />
                         
                         <strong>Tech used:</strong>
@@ -124,7 +129,7 @@ const TimeLine = () => {
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 
                 <UrlButton
-                  href="https://github.com/harshraut25/daily-meal-food-ordering-app/"
+                  href="https://github.com/harshraut25/Hr-LinkedIn-Clone"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -133,6 +138,381 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
+
+
+        {/* Project: HR Profile Portfolio Website */}
+        <ImageEvent
+            date="25/11/2021"
+            className="text-center"
+            text="HR Profile Portfolio Website"
+            src={L_HRProfile}
+            alt="HR Profile Portfolio Website"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> <br></br>Portfolio website using React.js , Node.js and React-Bootstrap with a clean and beautiful user interface 
+                        <br></br>It contains a Header, Home, About, Skills, Experience, Project, Contact and Footer.
+                        <hr />
+                        
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Github API"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GitHub API
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+                <UrlButton
+                  href="https://github.com/harshraut25/harshraut-profile"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+      
+              </div>
+            </div>
+          </ImageEvent>
+
+
+        {/* Project: Coffee For Coding Game */}
+        <ImageEvent
+            date="19/07/2020"
+            className="text-center"
+            text="Coffee For Coding Game"
+            src={L_CoffeeForCoding}
+            alt="Coffee For Coding Game"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> <br></br>Developed an action game using Javascript and kaboom.js Library.<br></br>
+                        <hr />
+                        
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Github API"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GitHub API
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+                <UrlButton
+                  href="https://replit.com/@HarshRaut1/Coffee-for-Coding#code/"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+      
+              </div>
+            </div>
+          </ImageEvent>
+
+
+        {/* Project: Sakoban Game */}
+        <ImageEvent
+            date="19/07/2020"
+            className="text-center"
+            text="Sakoban Game"
+            src={L_Sakoban}
+            alt="Sakoban Game"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> <br></br>Delimeal is as template app for restaurant. <br></br>Now it support some feature as:
+
+                        <br></br>1) Sokoban is a puzzle game in which the player has to push boxes in the warehouse to its storage locations.
+                        <br></br>2) Monte Carlo Tree Search is a best-first search algorithm, used to solve this game.
+                        <hr />
+                        
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Github API"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GitHub API
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+                <UrlButton
+                  href="https://github.com/harshraut25/Sakoban-Game"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+      
+              </div>
+            </div>
+          </ImageEvent>
+
+
+          {/* Project: Daily Meal food ordering app */}
+          <ImageEvent
+                      date="19/07/2020"
+                      className="text-center"
+                      text="Daily Meal food ordering app"
+                      src={L_GetGitHubInfo}
+                      alt="Daily Meal food ordering app"
+                    >
+                      <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                          <Accordion>
+                            <Card>
+                              <Accordion.Toggle
+                                as={Card.Header}
+                                eventKey="0"
+                                className="p-2 text-center accordian-main"
+                              >
+                                PROJECT DETAILS
+                              </Accordion.Toggle>
+
+                              <Accordion.Collapse eventKey="0" className="text-left">
+                                <Card.Body>
+                                  <strong>Description:</strong> <br></br>
+
+                                  <br></br>1) Display meals as category.
+                                  <br></br>2) Search with full filter by item attribute
+                                  <br></br>3) Display meals in Map mode.
+                                  <br></br>4) Save meal if you like it.
+                                  <br></br>5) Login with facebook to share for your friends
+                                  <hr />
+                                  
+                                  <strong>Tech used:</strong>
+                                  <ul>
+                                    <li>
+                                      <span className="p-2">
+                                        <Image
+                                          src={L_HTML5}
+                                          alt="HTML 5"
+                                          rounded
+                                          className="image-style m-1"
+                                        ></Image>{" "}
+                                        HTML5
+                                      </span>
+                                    </li>
+                                    <li>
+                                      <span className="p-2">
+                                        <Image
+                                          src={L_CSS3}
+                                          alt="CSS 3"
+                                          rounded
+                                          className="image-style m-1"
+                                        ></Image>{" "}
+                                        CSS3
+                                      </span>
+                                    </li>
+                                    <li>
+                                      <span className="p-2">
+                                        <Image
+                                          src={L_REACT}
+                                          alt="React"
+                                          rounded
+                                          className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        React
+                                      </span>
+                                    </li>
+                                    <li>
+                                      <span className="p-2">
+                                        <Image
+                                          src={L_GIT}
+                                          alt="Github API"
+                                          rounded
+                                          className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        GitHub API
+                                      </span>
+                                    </li>
+                                  </ul>
+                                </Card.Body>
+                              </Accordion.Collapse>
+                            </Card>
+                          </Accordion>
+                        </div>
+                        <div className="d-flex justify-content-between flex-nowrap text-center">
+                          
+                          <UrlButton
+                            href="https://github.com/harshraut25/daily-meal-food-ordering-app/"
+                            target="_blank"
+                          >
+                            SOURCE CODE
+                          </UrlButton>
+                
+                        </div>
+                      </div>
+                    </ImageEvent>
+
 
         {/* Project: EduExpense Website  */}
 

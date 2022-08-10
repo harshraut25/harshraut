@@ -22,19 +22,15 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Harsh Raut</strong>
-                <br />A passionate, energetic and ambitious programmer who has developed a mature and responsible approach to any task I undertake, 
-                or situation that I am presented with.
+                <br />Energetic and passionate college student pursuing B.Tech in Computer Engineering at Veermata 
+                Jijabai Technological Institute, aiming to secure a position in an IT firm where I would be able to 
+                utilize my technical skills and also gain industrial experience along with career building opportunities.
                 <br/>
-                I am pursuing Computer Engineering in Veeermata Jijabai Technological Institute(VJTI).
+                I am pursuing Computer Engineering in Veermata Jijabai Technological Institute(VJTI).
                 <br />
                 The reason why i love coding is, if I can think it, I can make it a reality, and hence I have invested 
-                almost my 4 and half years now to build my software skills. I am a Full Stack Web Developer with React.js, Redux, 
-                Express.js, Node.js, and Firebase as my tech stack. My technical skills include the programming in Python, Java, C, C++,
-                databases.
-               
-                <br />
-                I have worked on the projects like Location Based Application in Java, Blog Website on Expenditure Control in MERN Stack,
-                To-do list in MERN and many more. 
+                almost my 4 and half years now to build my software skills. I am Front-end Developer and I have nearly 6 months of 
+                work experience as a Web developer intern at sai care systems, and NeoDocto incorporated and ManipalCigna Health Insurance Company.
                 <br />
                 
                 <Col className="d-flex justify-content-center flex-wrap">
